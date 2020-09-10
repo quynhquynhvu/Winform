@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be0ad1488e1c4a8f98931e5734373876" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="ModelHarmony.ChiTietDonHang" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.ChiTietHoaDon" Width="1.5" PointX="6" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.ChiTietNhanHang" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.ChiTietYCMH" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.ChucVu" Width="1.5" PointX="1.5" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.DateTime" Width="1.5" PointX="0.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.DonHang" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.HoaDon" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.KhachHang" Width="1.5" PointX="1.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.Login" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.NhaCungCap" Width="1.5" PointX="1.5" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.NhanHang" Width="1.5" PointX="6" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.NhanVien" Width="1.5" PointX="1.5" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.NhomKhachHang" Width="1.5" PointX="1.5" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.Sanpham" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.Thue" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.TonKho" Width="1.5" PointX="3" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.TrangThai" Width="1.5" PointX="1.5" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelHarmony.YeuCauMuaHang" Width="1.5" PointX="0.75" PointY="36.25" IsExpanded="true" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietDonHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietDonHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietDonHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietHoaDon_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietHoaDon_Sanpham1" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietHoaDon_Thue" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietNhanHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietNhanHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietYCMH_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_ChiTietYCMH_YeuCauMuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_HoaDon_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_HoaDon_DateTime1" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_NhanHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_YeuCauMuaHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_NhanHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_KhachHang_NhomKhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_YeuCauMuaHang_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_TonKho_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelHarmony.FK_YeuCauMuaHang_TrangThai" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ModelHarmony.DoanhSo" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7682c4bf9d2f439cbcf32e39617c72f9" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Model.ChiTietDonHang" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChiTietHoaDon" Width="1.5" PointX="6" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChiTietNhanHang" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChiTietYCMH" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChucVu" Width="1.5" PointX="1.5" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DateTime" Width="1.5" PointX="0.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DonHang" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HoaDon" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KhachHang" Width="1.5" PointX="1.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NhaCungCap" Width="1.5" PointX="1.5" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NhanHang" Width="1.5" PointX="6" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NhanVien" Width="1.5" PointX="1.5" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NhomKhachHang" Width="1.5" PointX="1.5" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Sanpham" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Thue" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TonKho" Width="1.5" PointX="3" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TrangThai" Width="1.5" PointX="1.5" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.YeuCauMuaHang" Width="1.5" PointX="0.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Doanh_so" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_ChiTietDonHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietDonHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietDonHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietHoaDon_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietHoaDon_Sanpham1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietHoaDon_Thue" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietNhanHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietNhanHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietYCMH_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChiTietYCMH_YeuCauMuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HoaDon_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HoaDon_DateTime1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NhanHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_YeuCauMuaHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NhanHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_KhachHang_NhomKhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_YeuCauMuaHang_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TonKho_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_YeuCauMuaHang_TrangThai" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Model.Login" Width="1.5" PointX="9.25" PointY="11" />
+        <EntityTypeShape EntityType="Model.DoanhSo" Width="1.5" PointX="10.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

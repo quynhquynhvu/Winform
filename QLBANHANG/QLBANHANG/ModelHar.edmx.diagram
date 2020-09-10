@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="44d154ced3d642c89b305a20f1a57e09" Name="Diagram1">
+        <EntityTypeShape EntityType="Model123.ChiTietDonHang" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.ChiTietHoaDon" Width="1.5" PointX="6" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.ChiTietNhanHang" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.ChiTietYCMH" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.ChucVu" Width="1.5" PointX="1.5" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.DateTime" Width="1.5" PointX="0.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.DonHang" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.HoaDon" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.KhachHang" Width="1.5" PointX="1.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.Login" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.NhaCungCap" Width="1.5" PointX="1.5" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.NhanHang" Width="1.5" PointX="6" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.NhanVien" Width="1.5" PointX="1.5" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.NhomKhachHang" Width="1.5" PointX="1.5" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.Sanpham" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.sysdiagram" Width="1.5" PointX="5.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.Thue" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.TonKho" Width="1.5" PointX="3" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.TrangThai" Width="1.5" PointX="1.5" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.YeuCauMuaHang" Width="1.5" PointX="0.75" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model123.DoanhSo" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="Model123.FK_ChiTietDonHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietDonHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietDonHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietHoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietHoaDon_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietHoaDon_Sanpham1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietHoaDon_Thue" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietNhanHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietNhanHang_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietYCMH_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_ChiTietYCMH_YeuCauMuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_HoaDon_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_HoaDon_DateTime1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_NhanHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_YeuCauMuaHang_DateTime" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_NhanHang_DonHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_KhachHang_NhomKhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_YeuCauMuaHang_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_TonKho_Sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="Model123.FK_YeuCauMuaHang_TrangThai" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
